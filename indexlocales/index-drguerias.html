@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faca.com.co</title>
+
+   <!--aqui esta el link de styles de boostrap-->
+
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9575595676655631"
+   crossorigin="anonymous"></script>
+   <!--favicon de la pagina-->
+   <link rel="icon" href="/images/favicon.png.png">
+   <!--styles internos de la pagina -->
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/barradebusqueda.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!--codigo de google analytics-->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDrZ5BcQ1Y5V5gBrDnOooFoTct391OwtOQ",
+      authDomain: "faca-com-co.firebaseapp.com",
+      projectId: "faca-com-co",
+      storageBucket: "faca-com-co.appspot.com",
+      messagingSenderId: "970784563100",
+      appId: "1:970784563100:web:51161b1255b5e5a2d5b259",
+      measurementId: "G-L41P674XVE"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+ 
+    
+
+
+</head>
+<body>
+   <!--Barra de navegacio nav-->
+   <div class="barra-de-navegacion">
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html"><img  class="logo-faca" src="/images/giphy.gif" alt="Logo Facatativá"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <div class="buscar" >
+            <div id="ctn-bars-search">
+              <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+          </div>
+      
+            <ul id="box-search">
+                    <!--Barra de Busqueda - RESTAURANTES-->
+              <li><a href="/locales/tamales-el-gordo.html"><i class="fas fa-search"></i>Tamales El Gordo | Restaurante</a></li>
+              <li><a href="/locales/boga.html"><i class="fas fa-search"></i>Boga Food & Beer | Restaurante</a></li>
+              <li><a href="/locales/barbaros.html"><i class="fas fa-search"></i>Barbaros Pizza | Restaurante</a></li>
+              <li><a href="/locales/misstolima.html"><i class="fas fa-search"></i>Lechoneria Misstolima | Restaurante</a></li>
+              <li><a href="/locales/alitasgrin.html"><i class="fas fa-search"></i>Alitas El Gringo Wings | Restaurante</a></li>
+              <li><a href="/locales/trgdeabu.html"><i class="fas fa-search"></i>La Tragantina De La Abuela | Restaurante</a></li>
+              <li><a href="/locales/elcorcel.html"><i class="fas fa-search"></i>El Corcel | Restaurante</a></li>
+              <li><a href="/locales/duardos.html"><i class="fas fa-search"></i>Duardo's | Restaurante</a></li>
+              <li><a href="/locales/lacentralcaribeña.html"><i class="fas fa-search"></i>La Central Caribeña | Restaurante</a></li>
+              <li><a href="/locales/90grados.html"><i class="fas fa-search"></i>Pizzería 90° Grados | Restaurante</a></li>
+              <li><a href="/locales/trgparrilla.html"><i class="fas fa-search"></i>Tragantina Parrilla | Restaurante</a></li>
+              <li><a href="/locales/sazon3Abue.html"><i class="fas fa-search"></i>Restaurante Sazón Las 3 Abuelas | Restaurante</a></li>
+              <li><a href="/locales/vasbor.html"><i class="fas fa-search"></i>Vasbor Restaurante | Restaurante</a></li>
+              <li><a href="/locales/lacabaña.html"><i class="fas fa-search"></i>Restaurante La Cabaña | Restaurante</a></li>
+              <li><a href="/locales/robertPizza.html"><i class="fas fa-search"></i>Robert's Pizzería Restaurante | Restaurante</a></li>
+              <li><a href="/locales/garibaldi.html"><i class="fas fa-search"></i>Restaurante El Gran Garibaldi | Restaurante</a></li>
+                     <!--Barra de Busqueda - MASCOTAS-->
+              <li><a href="/locales-mascotas/maskotas-conmpany.html"><i class="fas fa-search"></i>Maskotas Company | Mascotas</a></li>       
+              <li><a href="/locales-mascotas/animalstore.html"><i class="fas fa-search"></i>Animal's store | Mascotas</a></li>       
+              <li><a href="/locales-mascotas/neron.html"><i class="fas fa-search"></i>Nerón | Mascotas</a></li>       
+              <li><a href="/locales-mascotas/galgos.html"><i class="fas fa-search"></i>Galgos | Mascotas</a></li>       
+              <li><a href="/locales-mascotas/animalandia.html"><i class="fas fa-search"></i>Animalandia | Mascotas</a></li>       
+                     <!--Barra de Busqueda - TATUAJES-->
+              <li><a href="/local-tatuajes/solyluna.html"><i class="fas fa-search"></i>Sol y luna | Tatuajes</a></li>       
+              <li><a href="/local-tatuajes/octopus.html"><i class="fas fa-search"></i>Octopus Tattoo Shop | Tatuajes</a></li>       
+              <li><a href="/local-tatuajes/shoock.html"><i class="fas fa-search"></i>Shoock Tattoo studio | Tatuajes</a></li>       
+              <li><a href="/local-tatuajes/benditotattoo.html"><i class="fas fa-search"></i>Bendito Tattoo 13 | Tatuajes</a></li>       
+              <li><a href="/local-tatuajes/eternalart.html"><i class="fas fa-search"></i>Eternal Art Facatativá | Tatuajes</a></li>       
+                     <!--Barra de Busqueda - TAXIS-->
+              <li><a href="/locales-Taxis/autofaca.html"><i class="fas fa-search"></i>AutoFaca | Taxis</a></li>       
+              <li><a href="/locales-Taxis/coptaxi.html"><i class="fas fa-search"></i>Coptaxi | Taxis</a></li>         
+                     <!--Barra de Busqueda - DOMICILIO-->
+              <li><a href="/local-domicilios/vampi.html"><i class="fas fa-search"></i>Vampi | Domicilios</a></li>       
+              <li><a href="/local-domicilios/pidelo.html"><i class="fas fa-search"></i>Pídelo a Casa | Domicilios</a></li>         
+                     <!--Barra de Busqueda - DROGUERIAS-->
+              <li><a href="/locales-droguerias/lamayor.html"><i class="fas fa-search"></i>La Mayor | Drogueria</a></li>       
+              <li><a href="/locales-droguerias/laitaliana.html"><i class="fas fa-search"></i>Drogueria Italiana | Drogueria</a></li>         
+              <li><a href="/locales-droguerias/farmacenter.html"><i class="fas fa-search"></i>Farmacenter La Excelencia | Drogueria</a></li>         
+              <li><a href="/locales-droguerias/laeconomia.html"><i class="fas fa-search"></i>Drogas La Economia | Drogueria</a></li>         
+          </ul>
+      
+          <div id="cover-ctn-search"></div>
+      
+          </div>
+
+
+          <!--MENU DESPEGABLE-->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Restaurantes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/indexlocales/index-mascotas.html">Mascotas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/indexlocales/index-tatoo.html">Tatuajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/indexlocales/index-taxis.html">Taxis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/indexlocales/index-domi.html">Domicilios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/indexlocales/index-drguerias.html">Droguerias </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="text-align: center; color: #fff" href="/ser-parte-de-nosotros/contactanos.html">Contactanos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+  </div>
+    <!--Aqui termina el menu dezplegable -->
+
+    <div id="ctn-icon-search">
+      <i class="fas fa-search" id="icon-search"></i>
+  </div>
+
+    </div>
+
+    <!--Barra de busqueda-->
+
+    <div id="ctn-bars-search">
+      <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+  </div>
+
+  <ul id="box-search">
+    <!--Barra de Busqueda - RESTAURANTES-->
+<li><a href="/locales/tamales-el-gordo.html"><i class="fas fa-search"></i>Tamales El Gordo | Restaurante</a></li>
+<li><a href="/locales/boga.html"><i class="fas fa-search"></i>Boga Food & Beer | Restaurante</a></li>
+<li><a href="/locales/barbaros.html"><i class="fas fa-search"></i>Barbaros Pizza | Restaurante</a></li>
+<li><a href="/locales/misstolima.html"><i class="fas fa-search"></i>Lechoneria Misstolima | Restaurante</a></li>
+<li><a href="/locales/alitasgrin.html"><i class="fas fa-search"></i>Alitas El Gringo Wings | Restaurante</a></li>
+<li><a href="/locales/trgdeabu.html"><i class="fas fa-search"></i>La Tragantina De La Abuela | Restaurante</a></li>
+<li><a href="/locales/elcorcel.html"><i class="fas fa-search"></i>El Corcel | Restaurante</a></li>
+<li><a href="/locales/duardos.html"><i class="fas fa-search"></i>Duardo's | Restaurante</a></li>
+<li><a href="/locales/lacentralcaribeña.html"><i class="fas fa-search"></i>La Central Caribeña | Restaurante</a></li>
+<li><a href="/locales/90grados.html"><i class="fas fa-search"></i>Pizzería 90° Grados | Restaurante</a></li>
+<li><a href="/locales/trgparrilla.html"><i class="fas fa-search"></i>Tragantina Parrilla | Restaurante</a></li>
+<li><a href="/locales/sazon3Abue.html"><i class="fas fa-search"></i>Restaurante Sazón Las 3 Abuelas | Restaurante</a></li>
+<li><a href="/locales/vasbor.html"><i class="fas fa-search"></i>Vasbor Restaurante | Restaurante</a></li>
+<li><a href="/locales/lacabaña.html"><i class="fas fa-search"></i>Restaurante La Cabaña | Restaurante</a></li>
+<li><a href="/locales/robertPizza.html"><i class="fas fa-search"></i>Robert's Pizzería Restaurante | Restaurante</a></li>
+<li><a href="/locales/garibaldi.html"><i class="fas fa-search"></i>Restaurante El Gran Garibaldi | Restaurante</a></li>
+     <!--Barra de Busqueda - MASCOTAS-->
+<li><a href="/locales-mascotas/maskotas-conmpany.html"><i class="fas fa-search"></i>Maskotas Company | Mascotas</a></li>       
+<li><a href="/locales-mascotas/animalstore.html"><i class="fas fa-search"></i>Animal's store | Mascotas</a></li>       
+<li><a href="/locales-mascotas/neron.html"><i class="fas fa-search"></i>Nerón | Mascotas</a></li>       
+<li><a href="/locales-mascotas/galgos.html"><i class="fas fa-search"></i>Galgos | Mascotas</a></li>       
+<li><a href="/locales-mascotas/animalandia.html"><i class="fas fa-search"></i>Animalandia | Mascotas</a></li>       
+     <!--Barra de Busqueda - TATUAJES-->
+<li><a href="/local-tatuajes/solyluna.html"><i class="fas fa-search"></i>Sol y luna | Tatuajes</a></li>       
+<li><a href="/local-tatuajes/octopus.html"><i class="fas fa-search"></i>Octopus Tattoo Shop | Tatuajes</a></li>       
+<li><a href="/local-tatuajes/shoock.html"><i class="fas fa-search"></i>Shoock Tattoo studio | Tatuajes</a></li>       
+<li><a href="/local-tatuajes/benditotattoo.html"><i class="fas fa-search"></i>Bendito Tattoo 13 | Tatuajes</a></li>       
+<li><a href="/local-tatuajes/eternalart.html"><i class="fas fa-search"></i>Eternal Art Facatativá | Tatuajes</a></li>       
+     <!--Barra de Busqueda - TAXIS-->
+<li><a href="/locales-Taxis/autofaca.html"><i class="fas fa-search"></i>AutoFaca | Taxis</a></li>       
+<li><a href="/locales-Taxis/coptaxi.html"><i class="fas fa-search"></i>Coptaxi | Taxis</a></li>         
+     <!--Barra de Busqueda - DOMICILIO-->
+<li><a href="/local-domicilios/vampi.html"><i class="fas fa-search"></i>Vampi | Domicilios</a></li>       
+<li><a href="/local-domicilios/pidelo.html"><i class="fas fa-search"></i>Pídelo a Casa | Domicilios</a></li>         
+     <!--Barra de Busqueda - DROGUERIAS-->
+<li><a href="/locales-droguerias/lamayor.html"><i class="fas fa-search"></i>La Mayor | Drogueria</a></li>       
+<li><a href="/locales-droguerias/laitaliana.html"><i class="fas fa-search"></i>Drogueria Italiana | Drogueria</a></li>         
+<li><a href="/locales-droguerias/farmacenter.html"><i class="fas fa-search"></i>Farmacenter La Excelencia | Drogueria</a></li>         
+<li><a href="/locales-droguerias/laeconomia.html"><i class="fas fa-search"></i>Drogas La Economia | Drogueria</a></li>         
+</ul>
+
+  <div id="cover-ctn-search"></div>
+
+
+      <!--Aqui comienza el carrusel-->
+    <div class="carrusel-prin">
+      <div id="carouselExampleInterval" class="carousel slide  " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img  class="img-carru" src="/images/droguerias1.jpg" >
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img class="img-carru" src="/images/drogurias2.jpg">
+          </div>
+          <div class="carousel-item">
+            <img   class="img-carru" src="/images/groguerias3.jpg" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+       <!--Aqui termina el carrusel-->
+
+       <div class="card-group">
+        <p style="margin-top: 15px;" class="indicaciones">Estas en Droguerias, si quieres ver taxis, tatuajes, restaurantes entre otras cosas en Facatativá, despliega el menú. </p>
+      </div>
+
+       <!--Aqui comienzan las droguerias-->
+
+
+       <section class="droguerias" >
+        <div class="todo-droguerias">
+          <div class="card-group" >
+            <div class="card">
+              <img src="https://images2.imgbox.com/1e/87/eJryyJ63_o.jpg" class="card-img-top" alt="...">
+              <div class="card-body" id="tatoos" >
+                <h5 class="card-title">La Mayor</h5>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted">
+                  9:30 AM
+                     -
+                  8:00 PM
+  
+                </small></p>
+                  <p class="card-text"><small class="text-muted"> Numero de telefono:
+                    8900610
+                      </small></p>
+                <div class="boton-vermas">
+                  <a href="/errores/error.html"> <button type="button" class="btn btn-success" >  
+                    WhatsApp </button></a>
+                  </div>
+                  <div class="boton-vermas">
+                    <a href="https://www.facebook.com/Drogueria-la-mayor-facatativa-117572849635441" class="btn_facebook"> <button type="button" class="btn btn-primary">Facebook </button></a>
+                  </div>
+  
+                  <div class="boton-vermas">
+                    <a href="/locales-droguerias/lamayor.html"> <button type="button" class="btn btn-danger">Ver mas </button></a>
+                  </div>
+                    
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://images2.imgbox.com/60/37/seKd7yLw_o.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Droguería Italia </h5>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted">  
+                  8:00 AM
+                  10:00 PM
+  
+   
+                </small></p>
+                  <p class="card-text"><small class="text-muted"> Numero de telefono:
+                    (1) 8905760</small></p>
+                <div class="boton-vermas">
+                  <a href="/errores/error.html"> <button type="button" class="btn btn-success">whatsApp </button></a>
+                  </div>
+                  <div class="boton-vermas">
+                    <a href="https://www.facebook.com/Droguer%C3%ADa-Italia-Facatativa-108147383920838" class="btn_facebook"> <button type="button" class="btn btn-primary">Facebook </button></a>
+                  </div>
+  
+                  <div class="boton-vermas">
+                    <a href="/locales-droguerias/laitaliana.html"> <button type="button" class="btn btn-danger">Ver mas </button></a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://images2.imgbox.com/e5/e7/ymrW8GYJ_o.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Farmacenter La Excelencia</h5>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted">
+                  7:00 AM
+                  9:00 PM
+                </small></p>
+                <p class="card-text"><small class="text-muted"> Numero de telefono:
+                  311 4551199</small></p>
+                <div class="boton-vermas">
+                  <a href="https://api.whatsapp.com/send?phone=573114551199&app=facebook&entry_point=page_cta&fbclid=IwAR1tVyoQiUs8RESvaMoF1ifJK1BMNwkhqlnfwL9U2HTLl0zTOhAWMInxbGM"> <button type="button" class="btn btn-success">WhatsApp </button></a>
+                  </div>
+                  <div class="boton-vermas">
+                    <a href="https://www.facebook.com/droguerialaexcelenciaMyH/" class="btn_facebook" class="btn_facebook"> <button type="button" class="btn btn-primary">Facebook </button></a>
+                  </div>
+  
+                  <div class="boton-vermas">
+                    <a href="/locales-droguerias/farmacenter.html"> <button type="button" class="btn btn-danger">Ver mas </button></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img src="https://images2.imgbox.com/65/ee/CEMUDCJo_o.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Drogas La Economía </h5>
+                <p class="card-text"></p>
+                <p class="card-text"><small class="text-muted"> 
+                  7:00 AM
+                  9:00 PM
+  
+                </small></p>
+                <p class="card-text"><small class="text-muted"> Numero de telefono: 3177354998</small></p>
+                <div class="boton-vermas">
+                  <a href="/errores/error.html"> <button type="button" class="btn btn-success">WhatsApp </button></a>
+                  </div>
+                  <div class="boton-vermas">
+                    <a href="https://www.facebook.com/Drogas-La-Econom%C3%ADa-Facatativa-210703583042419/"> <button type="button" class="btn btn-primary">Facebook </button></a>
+                  </div>
+  
+                  <div class="boton-vermas">
+                    <a href="/locales-droguerias/laeconomia.html"> <button type="button" class="btn btn-danger">Ver mas </button></a>
+                </div>
+              </div>
+            </div>
+         
+        </div> 
+       </section>
+
+
+       <!--Aqui terminan las droguerias -->
+           
+       <section class="tiendas de mascotas ">
+        <div class="card-group">
+          <h2 class="descripcion">&#128155 ¿Quieres que tu drogueria aparezca aquí? ¡Contáctanos, es gratis!</h2>
+        </div>
+      </section>
+
+      <section class="tiendas de mascotas ">
+        <div class="card-group">
+          <h2 class="titulo-info">Droguería en Facatativá</h2>
+          
+          <h3 class="sub1">Faca.com.co próximamente tendrá mas farmacias, estamos en constante mejora.</h3>
+  
+          <p class="p1">Encuentra droguerías en el municipio de Facatativá, ahora en Faca.com.co con la sección Droguerías podrás buscar las droguerías que desees, si necesitas algún medicamento y quieres llamar a preguntar si esta disponible, saber el precio o si hacen domicilio puedes entrar ahora a Faca.com.co y ver allí toda la información rápidamente y simplificada para los facatativeños. </p>
+
+          <p>La salud es un tema muy importante en el municipio, nos preocupamos por tu bienestar y pronto traeremos mas farmacias a Faca.com.co, el objetivo es que, con la ayuda de los facatativeños, podamos construir una gran base de datos del municipio.
+          </p>
+
+          <p>
+            Si tu hijo, tu madre o algún familiar de tu familia enfermo y no quieres salir de casa, recuerda que siempre podrás entrar a nuestra app y aquí encontrar números de teléfonos de droguerías en Facatativá, pide los medicamentos que requieras.
+          </p>
+  
+        <h2>Recomendaciones:</h2>
+  
+        <p>&#x2714 Recuerda que estamos saliendo de pandemia y aunque no uses tapabocas en Faca, si te sientes enfermo o con síntomas referentes a COVID-19 lo mejor es que tengas el menor contacto posible con otras personas.</p>
+  
+        <p>&#x2714 En tal caso de infección ve al médico, o dirígete con quien te realizo el tatuaje en Faca.</p>
+  
+        <p>&#x2714 Si te sientes demasiado enfermo no dudes en recurrir al Hospital San Rafael de Facatativá o la Clínica Santa Ana, dos grandes instituciones de salud que los facatativeños tenemos a nuestro alcance.</p>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><img style="width: 25px;" src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="">  @faca.com.co<i></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright: Faca.com.co
+        <a class="text-white" href="/ser-parte-de-nosotros/contactanos.html"> | Contactanos</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+      
+    </div>
+    <!-- End of .container -->
+
+    <script src="/js/barradebusqueda.js"></script>
+    <script src="/public/css/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

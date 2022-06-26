@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+body{
+    background-image: url(/images/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+.todo-error{
+    justify-content: center;
+    margin-top: 150px;
+    border: 5px #d00000 solid;
+    width: 100%;
+    height: 100%	;
+    padding: 40px;
+   color: #000;
+}
+
+
+
+.titulo-contac{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: #e9c46a ;
+    height: 150px;
+}
+
+
+.texrt-contac{
+    display: flex;
+    position: relative;
+    color: aliceblue;
+   top: 10px;
+   justify-content: center;
+}
+
+
+.boton-contac{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container{
+    margin-top: 10px;
+    margin: 10px;
+}
+
+.caja1{
+    background-image: url(/images/hamburger-pixel-art-vector.webp);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border: #fff solid 2px;
+}
+
+.caja2{
+    background-image: url(/images/hamburger-pixel-art-vector.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color:#000;
+    border: #fff solid 2px;
+    top: 10px;
+}
+.texto-wha{
+    color: #000;
+    font-size: 25px;
+}
+
+.caja3{
+    background-image: url(/images/hamburger-pixel-art-vector.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    height: 300px;
+    border: #fff solid 2px;
+    margin-top: 10px;
+}
+.caja4{
+    background-image: url(/images/hamburger-pixel-art-vector.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    border: #fff solid 2px;
+    
+}
+
+.text-correo{
+    font-size: 80px;
+}
+.caja5{
+
+}
+
+
+.caja6{
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+

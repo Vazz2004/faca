@@ -1,0 +1,162 @@
+#icon-menu{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+    padding: 10px;
+    font-size: 20px;
+    background: #eeeeeefa;
+    border-radius: 100%;
+    color: #787878;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#icon-menu:hover{
+    opacity: 0.8;
+}
+
+#ctn-icon-search{
+    position: absolute;
+    right: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ctn-icon-search i{
+    font-size: 18px;
+    color: #777777;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+#ctn-icon-search i:hover{
+    color: #46a2fd;
+}
+
+
+#ctn-bars-search{
+    position: sticky;
+    top: -10px;
+    width: 100%;
+    padding: 20px;
+    z-index: 9;
+    transition: all 600ms;
+}
+
+#ctn-bars-search input{
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 5px;
+    font-size: auto;
+    outline: 0;
+    border-radius: 8px;
+    border-color: #ff0080;
+}
+
+#box-search{
+    position: sticky;
+    top: 80px;
+    left: 50%;
+    width: auto;
+    background: rgb(207, 206, 206);
+    z-index: 8;
+    overflow: hidden;
+    border-radius: 8px;
+    padding-left: 40px;
+    font-family: sans-serif;
+    font-size: small;
+    display: none;
+}
+
+#box-search li a{
+    display: block;
+    width: auto;
+    color: #000000;
+    padding: 12px 20px;
+    text-decoration: none;
+    
+}
+
+#box-search li a i{
+    margin-right: 10px;
+    color: #777777;
+}
+
+
+#cover-ctn-search{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 7;
+    display: none;
+}
+
+.preocupacion{
+    background: #f7f5f5; 
+    font-weight: bold; 
+    padding: 15px; 
+    border-left:5px solid #ff0080;
+    margin-top: -10px;
+    text-align: center;
+}
+.preocupacion1{
+    background: #f7f5f5; 
+    font-weight: normal; 
+    padding: 15px; 
+    border-right:90px solid #941010;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+.preocupacion2{
+    background: #f7f5f5; 
+    font-weight: normal; 
+    padding: 15px; 
+    border-right:60px solid #cc5f17;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.alerta2{
+    width: 7%;
+}
+
+
+@media screen and (max-width: 1220px){
+
+    #ctn-bars-search,
+    #ctn-bars-search input,
+    #box-search{
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    #icon-menu{
+        display: flex;
+        right: 60px;
+    }
+
+    .container-aside{
+        flex-wrap: wrap;
+    }
+    #ctn-bars-search input{
+        font-size: 13px;
+     }
+
+}
