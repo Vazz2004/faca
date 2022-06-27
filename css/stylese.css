@@ -37,6 +37,12 @@ body{
     background-color: #c5f80e ;
     height: auto;
 }
+.titulo-contac2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    height: auto;
+}
 
 
 .texrt-contac{
