@@ -34,8 +34,8 @@ body{
     position: relative;
     margin-top: 30px;
     justify-content: center;
-    background-color: #e9c46a ;
-    height: 150px;
+    background-color: #c5f80e ;
+    height: auto;
 }
 
 
@@ -43,16 +43,20 @@ body{
     display: flex;
     position: relative;
     color: aliceblue;
-   top: 10px;
-   justify-content: center;
+    top: 10px;
+    justify-content: center;
+    color: #000;
+    font-size: large;
+    padding: 15px;
 }
 
 
 .boton-contac{
     position: relative;
-    display: flex;
     justify-content: center;
     margin-top: 20px;
+    font-size: 26px;
+    font-size: 26px;
 }
 .container{
     margin-top: 10px;
@@ -61,12 +65,14 @@ body{
 
 .caja1{
     background-image: url(/images/hamburger-pixel-art-vector.webp);
-    height: 300px;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     border: #fff solid 2px;
+    opacity: 80%;
+    font-weight: bold;
 }
 
 .caja2{
@@ -78,10 +84,31 @@ body{
     color:#000;
     border: #fff solid 2px;
     top: 10px;
+    font-size: 26px;
+    height: auto;
+    opacity: 80%;
+    font-weight: bold;
 }
 .texto-wha{
     color: #000;
-    font-size: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+.Boton-Whatsapp{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto-correo{
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
 }
 
 .caja3{
@@ -91,9 +118,10 @@ body{
     background-position: center;
     background-attachment: fixed;
     color: aliceblue;
-    height: 300px;
+    height: 100px;
     border: #fff solid 2px;
     margin-top: 10px;
+    opacity: 80%;
 }
 .caja4{
     background-image: url(/images/hamburger-pixel-art-vector.webp);
@@ -102,21 +130,17 @@ body{
     background-position: center;
     background-attachment: fixed;
     color: aliceblue;
+    opacity: 80%;
+    color: #000;
     border: #fff solid 2px;
+    padding: 15px;
     
 }
-
-.text-correo{
-    font-size: 80px;
-}
-.caja5{
-
-}
-
 
 .caja6{
     background-color: antiquewhite;
     height: 100px;
+    opacity: 80%;
 }
 
 
