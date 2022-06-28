@@ -4,6 +4,14 @@
     margin: 0;
 
 }
+body{
+    background-image: url(/images/giphy.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
 
 
 
@@ -16,177 +24,132 @@
   50% {border-color: transparent;}
 }
 
-body{
-    background-image: url(/images/giphy.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
 
-}
-
-
-.todo-error{
-    justify-content: center;
-    margin-top: 150px;
-    border: 5px #d00000 solid;
-    width: 100%;
-    height: 100%	;
-    padding: 40px;
-   color: #000;
-}
-
-
-
-.tex-center{
-    width: 100%;
-    display: flex;
-    position: relative;
-    margin-top: 30px;
-    justify-content: center;
+.contactanos-todo{
     display: block;
-    font-family: monospace ;
-    white-space:nowrap ;
-    border-right:1px  ;
-    width: 50ch;
-    animation: typing 2s  steps(12),
-    blink , .5s infinite step-end alternate	 ;
-    overflow: hidden;
+    
+}
+
+.span1{
+position: relative;
+font-size: 2rem;
+top: 20px;
+}
+.text-center{
+   
     font-size: 20px;
     color: #fca311;
-
-}
-.titulo-contac{
-    display: flex;
-    position: relative;
     justify-content: center;
+}
+
+
+
+.text-1{
     background-color: #fff;
-    height: 100px;
-    
-}
-
-
-.texrt-contac{
-    display: flex;
     position: relative;
-    color: aliceblue;
-    top: 10px;
-    justify-content: center;
-    color: #000;
-    font-size: large;
-    padding: 15px;
+    margin-top: 0px;
+    font-size: 40px;
+    display: block;
+    height: 120px;
+    width: 100%;
 }
-
-
-.boton-contac{
-    position: relative;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 26px;
-    font-size: 26px;
-}
-.container{
-    margin-top: 10px;
-    margin: 10px;
-}
-
 .caja1{
-    background-image: url(/images/hamburger-pixel-art-vector.webp);
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
- 
-
-}
-
-.caja2{
-    background-image: url(/images/hamburger-pixel-art-vector.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    color:#000;
-    border: #fff solid 2px;
+    position: relative;
+    background-color: aqua;
+    height: 250px;
+    width: 100%;
     top: 10px;
-    font-size: 26px;
-    height: auto;
- 
+    border: solid 5px #fff;
+    background-image: url(/images/hamburger-pixel-art-vector.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
 }
-.texto-wha{
-    color: #000;
-    font-size: 26px;
-    font-weight: bold;
+.caja1 a {
+    display: flex;
+    text-decoration: none;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
-.Boton-Whatsapp{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.caja1 p {
+    display: flex;
+    font-size: 0px;
+}
+.caja2{
+    position: relative;
+    background-color: #fca311;
+    height: 250px;
+    width: 100%;
+    top: 10px;
+    background-image: url(/images/hamburger-pixel-art-vector.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border: solid 5px #fff;
 }
 
-.texto-correo{
-    font-weight: bold;
-    text-align: center;
-    font-size: 26px;
-}
 
 .caja3{
+    position: relative;
+    background-color: bisque;
+    height: 250px;
+    width: 100%;
+    top: 10px;
     background-image: url(/images/hamburger-pixel-art-vector.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    color: aliceblue;
-    height: 100px;
-    border: #fff solid 2px;
-    margin-top: 10px;
-  
+    border: solid 5px #fff;
 }
 .caja4{
+    position: relative;
+    background-color: aqua;
+    height: 250px;
+    width: 100%;
+    top: 10px;
     background-image: url(/images/hamburger-pixel-art-vector.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    color: aliceblue;
-    opacity: 80%;
-    color: #000;
-    border: #fff solid 2px;
-    padding: 15px;
-    
+    border: solid 5px #fff;
 }
 
-.caja6{
-    background-color: antiquewhite;
-    height: 100px;
-    opacity: 80%;
+.cajas2{
+    position: relative;
+    top: 10px;
 }
 
-@media (max-width: 365px){
+.caja1  p {
+    font-size:1rem ;
 
-    .tex-center{
-        width: 100%;
-        display: flex;
-        position: relative;
-        margin-top: 30px;
-        justify-content: center;
-        display: block;
-        font-family: monospace ;
-        white-space:nowrap ;
-        border-right:1px  ;
-        width: 50ch;
-        animation: typing 2s  steps(12),
-        blink , .5s infinite step-end alternate	 ;
-        overflow: hidden;
-        font-size: 10px;
+}
+
+@media (min-width: 320px){
+
+    .text-center {
+
+        font-size: 1rem;
     
     }
 
+
+    .text-1{
+        background-color: #fff;
+        position: relative;
+        margin-top: 0px;
+        font-size: 40px;
+        display: block;
+        height: 250px;
+        width: 100%;
+    }
+
 }
+
+
 
 
