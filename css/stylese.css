@@ -34,8 +34,10 @@ body{
     position: relative;
     margin-top: 30px;
     justify-content: center;
-    background-color: #c5f80e ;
+    background-color: #f8f40e ;
     height: auto;
+    width: auto;
+    text-align: center;
 }
 .titulo-contac2{
     display: flex;
