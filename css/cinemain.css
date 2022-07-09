@@ -1,0 +1,124 @@
+body{
+    background-image: url(../images/gif-palomita-maiz.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.todo-section-card{
+    position: relative;
+    display: flex;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.479);
+    width: 350px;
+    margin: 10px 20px ;
+    border-radius: 10px;
+    grid-template-columns: 33% 33% 33%;
+    gap: initial;
+    margin-left: 30px;
+  
+}
+
+
+.titulo{
+    position: relative;
+    text-align: center;
+}
+.titulo-pelis h1 {
+    text-align: center;
+    color: aliceblue;
+
+}
+.img-peli img {
+    display: flex;
+    margin: auto;
+    width: 240px;
+    height: 190px;
+}
+.parrafos-horario h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.parrafos-horario p {
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    width: 120px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.precios-peli h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+
+.precios-peli p {
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    background-color: red;
+    width: 120px;
+    margin:10px ;
+    border-radius: 10px;
+}
+
+.boton-vermas-pelis a {
+    display: flex;
+    position: relative;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: red;
+    text-align: center;
+    width: 80px;
+    border-radius: 10px;
+
+
+}
+
+
+.vermas-pelis{
+    padding: 10px;
+    position: relative;
+    margin: auto;
+    
+
+}
+
+a:hover{
+   background-color: springgreen ;
+}
+
+@media (max-width:370px) {
+
+    .todo-section-card{
+        position: relative;
+        display: flex;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.479);
+        width: 350px;
+        margin: 10px auto ;
+
+      
+    }
+
+
+    .todo-section-card{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.479);
+        width: 270px;
+        margin: auto 10px ;
+        border-radius: 10px;
+ 
+      
+    }
+    
+
+    
+
+}
+
