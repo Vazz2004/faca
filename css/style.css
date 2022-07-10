@@ -124,7 +124,8 @@ body{
 
 
 .categorias-todo{
-    margin: 20px;
+  
+  width: 300px;
 }
 
 
@@ -135,7 +136,7 @@ body{
 }
 
 .categorias a {
-    margin: 5px;
+    margin: 0px;
     display: inline-block;
     text-decoration: none;
     
@@ -162,7 +163,7 @@ a:hover{
     display: flexs;
     text-align: center;
     background-color: red;
-    width: 200px;
+    width: 400px;
     height: 50px;
     margin: auto;
 
@@ -180,15 +181,20 @@ a:hover{
 
 
     .categorias img{
+        position: relative;
+        margin: auto 0;
         width: 80px;
         height:50px;
+        max-width: 90px;
     
     }
     
     .categorias a {
-        margin: 5px;
+        margin: 1px;
         display: inline-block;
         text-decoration: none;
+        grid-template-columns: 33% 33% 33%;
+        gap: initial;
         
     
     
@@ -199,7 +205,7 @@ a:hover{
     }
     
     .categorias h1 {
-        font-size: 20px;
+        font-size: 10px;
         text-align: center;
         background-color: red;
         color: #fff;
@@ -213,12 +219,13 @@ a:hover{
         display: flexs;
         text-align: center;
         background-color: red;
-        width: 90%;
+        width: 70%;
         height: auto;
         margin: auto;
     
     }
     
+
       
  }
 

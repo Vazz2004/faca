@@ -122,3 +122,33 @@ a:hover{
 
 }
 
+
+@media (max-width:800px) {
+
+    .todo-section-card{
+        position: relative;
+        display: flex;
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.479);
+        width: 350px;
+        margin: 10px auto ;
+
+      
+    }
+
+
+    .todo-section-card{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.479);
+        width: 270px;
+        margin: auto 10px ;
+        border-radius: 10px;
+ 
+      
+    }
+    
+
+    
+
+}
+
