@@ -7,16 +7,15 @@ body{
 }
 
 .todo-section-card{
-    position: relative;
-    display: flex;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.479);
-    width: 350px;
-    margin: 10px 20px ;
-    border-radius: 10px;
-    grid-template-columns: 33% 33% 33%;
-    gap: initial;
-    margin-left: 30px;
+margin: auto ;
+display: flex;
+position: relative;
+background-color: rgba(0, 0, 0, 0.514);
+width: 400px;
+height: 500px;
+top: 60px;
+border-radius: 10px;
+
   
 }
 
@@ -93,62 +92,8 @@ a:hover{
    background-color: springgreen ;
 }
 
-@media (max-width:370px) {
 
-    .todo-section-card{
-        position: relative;
-        display: flex;
-        display: inline-block;
-        background-color: rgba(0, 0, 0, 0.479);
-        width: 350px;
-        margin: 10px auto ;
-
-      
-    }
-
-
-    .todo-section-card{
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.479);
-        width: 270px;
-        margin: auto 10px ;
-        border-radius: 10px;
- 
-      
-    }
-    
-
-    
-
+.card-todo{
+    position: relative;
+    top: 10px;
 }
-
-
-@media (max-width:800px) {
-
-    .todo-section-card{
-        position: relative;
-        display: flex;
-        display: inline-block;
-        background-color: rgba(0, 0, 0, 0.479);
-        width: 350px;
-        margin: 10px auto ;
-
-      
-    }
-
-
-    .todo-section-card{
-        position: relative;
-        background-color: rgba(0, 0, 0, 0.479);
-        width: 270px;
-        margin: auto 10px ;
-        border-radius: 10px;
- 
-      
-    }
-    
-
-    
-
-}
-
