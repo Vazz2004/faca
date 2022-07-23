@@ -172,6 +172,9 @@ a:hover{
 
 
 
+
+
+
 @media screen and (max-width: 420px){
     .caja1{
      height: 100%;
@@ -230,7 +233,9 @@ a:hover{
  }
 
 
- @media screen and (max-width: 790px){
+
+
+ @media screen and (max-width: 400px){
     .caja1{
      height: 100%;
      width: 100%;

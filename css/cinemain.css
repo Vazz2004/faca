@@ -1,99 +1,253 @@
 body{
-    background-image: url(../images/gif-palomita-maiz.gif);
+    background-image: url(../images/cinesi.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
 
-.todo-section-card{
-margin: auto ;
-display: flex;
-position: relative;
-background-color: rgba(0, 0, 0, 0.514);
-width: 400px;
-height: 500px;
-top: 60px;
-border-radius: 10px;
-
-  
+.todo-pagina{
+    margin-top: 30px;
 }
 
-
-.titulo{
-    position: relative;
-    text-align: center;
-}
-.titulo-pelis h1 {
-    text-align: center;
-    color: aliceblue;
-
-}
-.img-peli img {
-    display: flex;
-    margin: auto;
-    width: 240px;
-    height: 190px;
-}
-.parrafos-horario h1 {
-    color: aliceblue;
-    text-align: center;
+.navbar-brand img{
+    width: 50px;
+    height: auto;
 }
 
-.parrafos-horario p {
-    color: aliceblue;
-    text-align: center;
-    display: inline-block;
-    background-color: red;
-    width: 120px;
-    margin: 10px;
-    border-radius: 10px;
-}
-
-.precios-peli h1{
-    color: aliceblue;
-    text-align: center;
-}
-
-
-.precios-peli p {
-    color: aliceblue;
-    text-align: center;
-    display: inline-block;
-    background-color: red;
-    width: 120px;
-    margin:10px ;
-    border-radius: 10px;
-}
-
-.boton-vermas-pelis a {
-    display: flex;
-    position: relative;
-    color: aliceblue;
-    text-decoration: none;
-    background-color: red;
-    text-align: center;
-    width: 80px;
-    border-radius: 10px;
-
-
-}
-
-
-.vermas-pelis{
-    padding: 10px;
-    position: relative;
-    margin: auto;
+.img-1-index{
+    background-image:url(../images/leyenda-viva.png) ;
+    width: 100%;
+    height: 250px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
+    
+}
 
+
+.img-pagi1-index img{
+    width: 100%;
+    height: 400px;
+}
+
+
+.img-inicio h1{
+    color: #fff;
+}
+
+.descripcion{
+    position: relative;
+    margin-top: 20px;
+}
+
+.img2  img{
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    height: 150px;
+
+}
+
+
+.img-pagi1 img{
+    width: 70%;
+    height: 120px;
+
+}
+
+.container  p{
+
+    color: #fff;
+
+}
+
+.butoon-siguientepagi a {
+   background-color: #8ff66b ;
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.5rem;
+   padding: 10px;
+   border-radius: 10px;
 }
 
 a:hover{
-   background-color: springgreen ;
+    background-color:#5cf5ff ;
 }
 
 
-.card-todo{
+
+footer{
     position: relative;
-    top: 10px;
+    margin-top: 20px;
+    background-color: #1c2937;
+    width: 100%;
+    height: 100%;
 }
+
+footer h1 {
+    
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+footer h2 {
+   
+    text-align:  center;
+    font-size: 1rem;
+    color: #fff;
+}
+
+footer hr{
+    background-color: #fff;
+    height: 2px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes img{
+    margin: 10px;
+    justify-content: center;
+    width: 30px;
+    margin-top: 5px;
+}
+.img1pagi2{
+    display: flex;
+    justify-content: center;
+}
+.img1pagi2 img{
+
+    width: 50%;
+    height: 270px;
+
+}
+
+
+.tituloanimatepage img {
+    width: 100%;
+    height: 300px;
+}
+
+
+.animateimg{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+
+.pcss p{
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
+}
+
+
+.titulowow img{
+    width: 100%;
+    height: 250px;
+
+}
+
+
+.titulowow h1{
+    animation: pulse; 
+    animation-duration: 2s;
+}
+
+
+.titulowow img{
+    animation:backInLeft; 
+    animation-duration: 2s;
+}
+
+
+.imganimate1{
+    animation:backInLeft; 
+    animation-duration: 2s;
+}
+
+
+.imganimate2{
+
+    animation:backInRight; 
+    animation-duration: 2s;
+
+}
+
+.caja1wow{
+    animation:bounceInLeft; 
+    animation-duration: 2s;
+}
+
+.img-animation img{
+
+    width: 100%;
+
+}
+
+.como-aplicarla img{
+    width: 100%;
+}
+
+
+
+.colorf h1 {
+    color: #fff;
+}
+
+.todo-cartas{
+   top: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.623);
+}
+
+.todo-cartas{
+    background-color: #1c293798;
+    width: 100%;
+}
+
+
+.img-peli{
+    display: flex;
+    justify-content: center;
+}
+
+.img-peli img{
+
+    width: 200px;
+
+}
+
+
+.top-cardss{
+    margin-top: 10px;
+}
+
+
+.horarios p{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.5rem;
+ 
+}
+
+
+.horarios h2{
+color: #fff;
+
+}
+
+.info-cine{
+    background-color: #481f1a;
+}
+
+
+.info-cine2{
+    background-color:#400000;
+}
+
