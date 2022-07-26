@@ -1,10 +1,14 @@
-body{
-    background-image: url(../images/cinesi.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+*{
+    padding: 0;
+    margin: 0;
 }
+ body{
+    background-image: url(../images/cine10.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
 
 .todo-pagina{
     margin-top: 30px;
@@ -34,7 +38,7 @@ body{
 
 
 .img-inicio h1{
-    color: #fff;
+    color: #000;
 }
 
 .descripcion{
@@ -250,4 +254,5 @@ color: #fff;
 .info-cine2{
     background-color:#400000;
 }
+
 
